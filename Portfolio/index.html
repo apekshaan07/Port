@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5 m-2" href="#">Apeksha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume" download>Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Profile Section -->
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="circular-image-container">
+                        <img class="circular-image" src="images/photo.jpeg" alt="Profile">
+                    </div>
+                </div>
+
+                <div class="col-12 text-center mt-3">
+                    <div class="name">
+                        <h1 class="glow-text">Apeksha Agaradalli Natraj</h1>
+                        <h1 class="role"><span id="typed-text"></span></h1>
+                    </div>
+                </div>
+
+                <!-- JavaScript for typing effect -->
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const text = "Software Developer";
+                        let index = 0;
+
+                        function typeEffect() {
+                            if (index < text.length) {
+                                document.getElementById("typed-text").textContent += text.charAt(index);
+                                index++;
+                                setTimeout(typeEffect, 100);
+                            }
+                        }
+
+                        // Ensure the text is reset before starting the effect
+                        document.getElementById("typed-text").textContent = "";
+                        typeEffect();
+                    });
+                </script>
+
+
+                <!-- Social Links -->
+                <div class="col-12 text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.linkedin.com/in/apeksha-agaradalli-natraj-5b9248227/" target="_blank" class="social_links ms-3">
+                            <img src="images/link.png" alt="LinkedIn">
+                        </a>
+                        <a href="mailto:anapeksha07@gmail.com" target="_blank" class="social_links ms-3">
+                            <img src="images/email.png" alt="Email">
+                        </a>
+                        <a href="https://github.com/apekshaan07" target="_blank" class="social_links ms-3">
+                            <img src="images/github.png" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="row my-5 d-flex justify-content-center align-items-center text-center">
+            <div class="col-md-8 text-light">
+                <p class="fs-5">
+                    I am a Passionate Full-Stack Developer specializing in backend development and microservices, with expertise in Python, Java, JavaScript, and C. Currently pursuing a Master’s in Computer Science at the University of Utah. Former Associate Software Engineer
+                    at Infogain, optimizing backend systems and building scalable web applications. Skilled in Flask, Django, Spring Boot, SQL, Firebase, and MongoDB, with experience in RESTful APIs and microservices. Also worked on machine learning projects
+                    using Scikit-learn and TensorFlow. Enthusiastic about innovation, collaboration, and building impactful solutions. Let’s connect!
+                </p>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="js/script.js"></script>
+
+    </body>
+
+    </html>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2 class="section-heading glow-text">RESUME</h2>
+        <div class="underline"></div>
+
+        <div class="resume-container">
+            <a href="APEKSHA RESUME.pdf" class="resume-button" download>Download Resume</a>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-heading glow-text">EDUCATION</h2>
+
+        <div class="education-container">
+            <!-- University of Utah -->
+            <div class="education-item">
+                <div class="education-left">
+                    <img src="images/utah.png" alt="University of Utah">
+                </div>
+                <div class="education-right">
+                    <h3>Master of Science in Computer Science (08/2023 – 05/2025)</h3>
+                    <h4 class="university-name">University of Utah</h4>
+                    <p>
+                        Master of Science in Computer Science, focusing on advanced computing concepts, security, and data-driven applications. Gained expertise in software development, system architecture, cybersecurity, and human-centered computing. Worked on projects involving
+                        secure system design, machine learning applications, and software security, applying theoretical knowledge to real-world challenges. Developed strong problem-solving, analytical, and technical skills, with a focus on bridging security,
+                        privacy, and software engineering principles.
+                    </p>
+                </div>
+            </div>
+
+            <!-- VTU -->
+            <div class="education-item">
+                <div class="education-left">
+                    <img src="images/vtu.png" alt="Visvesvaraya Technological University">
+                </div>
+                <div class="education-right">
+                    <h3>Bachelor of Engineering in Computer Science (08/2018 – 07/2022)</h3>
+                    <h4 class="university-name">Visvesvaraya Technological University</h4>
+                    <p>
+                        Bachelor's in Computer Science, focusing on core computing principles, software development, and problem-solving techniques. Gained hands-on experience in data structures, algorithms, database management, web development, and machine learning. Worked
+                        on various projects, applying programming skills to real-world applications, including software engineering, cybersecurity, and cloud computing. Developed a strong foundation in coding, analytical thinking, and system design.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2 class="section-heading glow-text">EXPERIENCE</h2>
+
+        <div class="experience-container">
+            <!-- Infogain -->
+            <div class="experience-item">
+                <div class="experience-left">
+                    <img src="images/infogain.jpeg" alt="Infogain Logo">
+                </div>
+                <div class="experience-right">
+                    <h3 class="company-name">Infogain India Private Limited</h3>
+                    <h4 class="role"><em>Associate Software Engineer</em></h4>
+                    <h5 class="duration">Aug 2022 - July 2023</h5>
+                    <ul>
+                        <li>Engineered a Responsive Web Design User Management system using HTML, CSS, JavaScript with a Java Spring Boot backend.</li>
+                        <li>Developed and deployed RESTful Web APIs and large-scale microservices applications, improving performance by 15%.</li>
+                        <li>Enhanced Costco Travel Investment Project, improving hotel, flight, and cruise bookings with Java, Spring, JavaScript, increasing engagement by 20%.</li>
+                        <li>Collaborated with cross-functional teams to resolve production issues, ensuring 99% uptime and a seamless user experience.</li>
+                        <li>Led Agile SCRUM version control, reducing development time and merge conflicts by 30%, improving team productivity.</li>
+                        <li>Optimized backend integration with the front end, reducing data processing time by 15% and ensuring real-time UI updates.</li>
+                        <li>Diagnosed and resolved critical defects, improving code quality and reducing bug reports by 15%.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Ekathva Innovations -->
+            <div class="experience-item">
+                <div class="experience-left">
+                    <img src="images/ek.jpeg" alt="Ekathva Innovations Logo">
+                </div>
+                <div class="experience-right">
+                    <h3 class="company-name">Ekathva Innovations Pvt Ltd</h3>
+                    <h4 class="role"><em>Software Engineer Intern</em></h4>
+                    <h5 class="duration">July 2021 - Sep 2021</h5>
+                    <ul>
+                        <li>Developed an online elective selection system using Python Flask, streamlining course selection for students and administrators.</li>
+                        <li>Integrated Cassandra Database with Flask, enabling real-time data retrieval and improving system responsiveness by 30%.</li>
+                        <li>Designed responsive web pages with HTML, CSS, and JavaScript, enhancing usability and cross-platform compatibility by 40%.</li>
+                        <li>Conducted testing and debugging, ensuring seamless functionality and reducing system downtime by 25%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-heading glow-text">SKILLS</h2>
+
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/html.webp" alt="HTML">
+                </div>
+                <p class="skill-name">HTML</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/css3.png" alt="CSS3">
+                </div>
+                <p class="skill-name">CSS3</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/sql.png" alt="MySQL">
+                </div>
+                <p class="skill-name">MySQL</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/python.png" alt="Python">
+                </div>
+                <p class="skill-name">Python</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/Java.jpg" alt="Java">
+                </div>
+                <p class="skill-name">Java</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/javascript.webp" alt="JavaScript">
+                </div>
+                <p class="skill-name">JavaScript</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/c.jpeg" alt="C">
+                </div>
+                <p class="skill-name">C</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/cassandra.png" alt="Cassandra">
+                </div>
+                <p class="skill-name">Cassandra</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/mongodb.png" alt="MongoDB">
+                </div>
+                <p class="skill-name">MongoDB</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/django.png" alt="Django">
+                </div>
+                <p class="skill-name">Django</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/flask.png" alt="Flask">
+                </div>
+                <p class="skill-name">Flask</p>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-box">
+                    <img src="images/boot.jpeg" alt="Bootstrap">
+                </div>
+                <p class="skill-name">Bootstrap</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-heading glow-text">PROJECTS</h2>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/oldml.jpg" alt="Old Bailey Decisions Prediction Project">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Old Bailey Decisions Prediction Project</h3>
+                    <p>
+                        Developed a machine learning model to predict court decisions based on historical Old Bailey trial data. Implemented data preprocessing techniques using Pandas and NumPy, optimizing text-based datasets with multiple representations (Glove, TF-IDF, Bag-of-Words).
+                        Trained and evaluated models including SVM, Perceptron, Logistic Regression, and Voting Classifier, improving prediction accuracy through hyperparameter tuning and cross-validation.
+                    </p>
+                    <a href="https://github.com/apekshaan07/Machine-Learning" target="_blank" class="github-button">
+                    🔗 View on GitHub
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/portfolio.png" alt="Portfolio Website">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p>
+                        Developed a personal portfolio website using HTML, CSS, Django, and Bootstrap, showcasing projects, skills, and contact details. Integrated a responsive design with a dynamic backend, ensuring seamless navigation and user experience. Implemented Django
+                        for scalability, enabling efficient project management and content updates.
+                    </p>
+                    <a href="https://github.com/apekshaan07/Portfolio" target="_blank" class="github-button">
+                    🔗 View on GitHub
+                </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/payroll.jpg" alt="Payroll Management System">
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title">Payroll Management System</h3>
+                    <p>
+                        Developed a Payroll Management System to efficiently handle employee salaries, tax calculations, and attendance tracking using HTML, CSS, JavaScript, SQL, and Python. Designed a secure and scalable database structure, ensuring accurate payroll processing
+                        and compliance with tax regulations. Integrated user-friendly interfaces for seamless payroll operations and administrative control.
+                    </p>
+                    <a href="https://github.com/apekshaan07/Payroll-Management-System" target="_blank" class="github-button">
+                    🔗 View on GitHub
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-heading glow-text">CERTIFICATIONS</h2>
+
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <div class="certificate-icon">
+                    <img src="images/azure.png" alt="Microsoft Azure Fundamental">
+                </div>
+                <div class="certificate-content">
+                    <h3>Microsoft Azure Fundamental</h3>
+                    <h4>Microsoft</h4>
+                    <p>Foundational knowledge of cloud concepts and Azure services.</p>
+                    <a href="certificate/Azure.pdf" target="_blank" class="view-certificate">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-heading glow-text">CONTACT</h2>
+
+        <div class="contact-container">
+            <div class="contact-box">
+                <div class="contact-item">
+                    <img src="images/address.png" alt="Location Icon">
+                    <p>Salt Lake City, Utah, USA</p>
+                </div>
+
+                <div class="contact-item">
+                    <img src="images/phone.png" alt="Phone Icon">
+                    <p>+1 (801) 661-5974</p>
+                </div>
+
+                <div class="contact-item">
+                    <img src="images/email.png" alt="Email Icon">
+                    <p>anapeksha07@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
